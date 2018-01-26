@@ -49,6 +49,8 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 * Write a little summary of knowledge attained right here:
 
 >Here is what I learned about SQL today:
+> * I upgraded my laptop's version of Postgres - then researched how to reinitialize the database cluster directory so I could once again run a Postgres server from the command line. I then reinitialized that directory.
+> *
 
 
 ### Algorithm Study
