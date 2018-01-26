@@ -33,14 +33,34 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 |Technical | Non-technical|
 |:---------|:-------------|
-| Unfamiliarity with SQL databases - research and implement| Need polished, comprehensive resume (including work prior to Epicodus) |
+| Unfamiliarity with SQL databases - research and/or implement| Need polished, comprehensive resume (including work prior to Epicodus) |
 | Research Tone.JS library (music synthesis in JS) | Practice succinctly answering common interview questions (both technical and non-technical) |
-| Determine how to effectively implement an RPG within an AngularJS framework| * |
+| Determine how to effectively implement an RPG within an AngularJS framework (for next week's project)| Try out the Pomodoro technique to help with time-management/focus |
 | AWS - start a free account and try to build/host something with it| * |
+| Study, start compiling into a single file several examples of the algorithms discussed in [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms).| * |
+| Brush up on Rails for a bit of potential upcoming work and to help justify its inclusion on my resume | * |
 
-##### Technical
-* Unfamiliarity with SQL databases
-*
+### SQL Study
+
+* Look through Java/C# Epicodus curriculum for introduction to database Topics
+
+* Search up an online introduction to SQL and absorb its knowledge
+
+* Write a little summary of knowledge attained right here:
+
+>Here is what I learned about SQL today:
+
+
+### Algorithm Study
+
+* Binary Search
+* Big O Notation
+* Arrays & Linked Lists
+* Selection Sort
+
+### Rails Study
+
+Probably just pick up the [Rails Tutorial](https://www.railstutorial.org/) where I left it on my second time through a couple months ago. Link to GitHub repo for my version of the [Ruby on Rails Sample Application]()
 
 ## Known Bugs
 
