@@ -50,7 +50,10 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 >Here is what I learned about SQL today:
 > * I upgraded my laptop's version of Postgres - then researched how to reinitialize the database cluster directory so I could once again run a Postgres server from the command line. I then reinitialized that directory.
-> *
+
+> * Data is organized into `tables` which can be related to each other by `primary keys`. Each table is comprised of `rows` which represent entries in the table. Each row is comprised of `columns` or `fields`, each of which represents a property of the entry described by that row.
+
+> * Common SQL data type keywords: `int`, `float`, `varchar` (SQL's keyword for strings of variable character length), `text` (for long blocks of text), `timestamp`, and `boolean`
 
 
 ### Algorithm Study
@@ -62,7 +65,7 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 ### Rails Study
 
-Probably just pick up the [Rails Tutorial](https://www.railstutorial.org/) where I left it on my second time through a couple months ago. Link to GitHub repo for my version of the [Ruby on Rails Sample Application]()
+Follow along with the [Rails Tutorial's](https://www.railstutorial.org/) creation of a Twitter clone (from chapter 3 onward). Link to GitHub repo for my version of the [Ruby on Rails Sample Application](https://github.com/lukebertram/sample-app).
 
 ## Known Bugs
 
