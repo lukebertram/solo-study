@@ -55,6 +55,8 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 > * Common SQL data type keywords: `int`, `float`, `varchar` (SQL's keyword for strings of variable character length), `text` (for long blocks of text), `timestamp`, and `boolean`
 
+> * SQL command keywords are conventionally written in all caps, and SQL statements must end with a semicolon.
+
 
 ### Algorithm Study
 
@@ -65,7 +67,15 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 ### Rails Study
 
-Follow along with the [Rails Tutorial's](https://www.railstutorial.org/) creation of a Twitter clone (from chapter 3 onward). Link to GitHub repo for my version of the [Ruby on Rails Sample Application](https://github.com/lukebertram/sample-app).
+Follow along with the [Rails Tutorial's](https://www.railstutorial.org/) creation of a Twitter clone (from chapter 3 onward).
+
+* Created a new repository on [my Github](https://github.com/lukebertram/sample-app).
+
+* Added a 'hello world' action (renders 'hello' html statement to the page) to the base application controller and set that action as the root route
+
+* Deployed [my new application](http://luke-solo-study.herokuapp.com/) to Heroku at http://luke-solo-study.herokuapp.com/.
+
+* Reread the first two chapters of the Rails Tutorial in order to refresh my knowledge of how Rails implements RESTful routes and MVC architecture, as well as data validations on and associations between models.
 
 ## Known Bugs
 
