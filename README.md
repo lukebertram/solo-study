@@ -10,18 +10,7 @@ This repository is intended to house the results of my day of independent self-d
 
 ## Setup/Installation Requirements
 
-For greatest ease of use, simply visit [this website](http://lukebertram.github.io/solo-study) in your web browser of choice. However, if you're feeling frisky, you can also use the following steps to clone the project from [GitHub](http://github.com) and run it locally on your own computer:
-
- * Visit the github page for [this project](http://github.com/lukebertram/solo-study)
- * Click the "Clone or Download" button and copy the address found there. Alternatively, just copy this address to your clipboard: https://github.com/lukebertram/solo-study.git
- * Access your system's command line interface (_ie Terminal, for MacOS Users_) and navigate to your home directory by entering the following magical spells into your command line (note: do not enter the '$' character):
-```
- $cd ~
-
- $git clone https://github.com/lukebertram/solo-study.git
-
- $open solo-study/index.html
-```
+The notes in this README represent the majority of this week's project. If you'd like to view the progress I've made on my version of the Rails Tutorial's "Sample App", just visit the version I have hosted [here on Heroku](https://luke-solo-study.herokuapp.com/) or check out [my github repo for the project](https://github.com/lukebertram/sample-app).
 
 ## Process
 
@@ -42,20 +31,20 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 ### SQL Study
 
-* Look through Java/C# Epicodus curriculum for introduction to database Topics
-
-* Search up an online introduction to SQL and absorb its knowledge
+* Look through Java/Ruby Epicodus curriculum for introduction to database Topics
 
 * Write a little summary of knowledge attained right here:
 
 >Here is what I learned about SQL today:
 > * I upgraded my laptop's version of Postgres - then researched how to reinitialize the database cluster directory so I could once again run a Postgres server from the command line. I then reinitialized that directory.
 
-> * Data is organized into `tables` which can be related to each other by `primary keys`. Each table is comprised of `rows` which represent entries in the table. Each row is comprised of `columns` or `fields`, each of which represents a property of the entry described by that row.
+> * Data is organized into `tables` which can be related to each other by `primary keys`. Each table is comprised of `rows` which represent entries (or `records`) in the table. Each row is comprised of `columns` (or `fields`), each of which represents a property of the entry described by that row.
 
 > * Common SQL data type keywords: `int`, `float`, `varchar` (SQL's keyword for strings of variable character length), `text` (for long blocks of text), `timestamp`, and `boolean`
 
 > * SQL command keywords are conventionally written in all caps, and SQL statements must end with a semicolon.
+
+> * A table can be related to another by means of a column whose value is the unique ID (or `key`) of a record in the other table. This entry is known as a `foreign key`.
 
 
 ### Algorithm Study
@@ -76,6 +65,10 @@ Follow along with the [Rails Tutorial's](https://www.railstutorial.org/) creatio
 * Deployed [my new application](http://luke-solo-study.herokuapp.com/) to Heroku at http://luke-solo-study.herokuapp.com/.
 
 * Reread the first two chapters of the Rails Tutorial in order to refresh my knowledge of how Rails implements RESTful routes and MVC architecture, as well as data validations on and associations between models.
+
+* Found a great description of [how to grep for stray processes from the Unix command line](https://www.railstutorial.org/book/static_pages#_aside-processes) near the end of Chapter 3 of the Rails Tutorial. I can remember wanting to reference this aside in the past and not being able to find it.
+
+* Removed the simple 'hello world' page at the root route of the site and replaced it with a very slightly dynamic home page.
 
 ## Known Bugs
 
