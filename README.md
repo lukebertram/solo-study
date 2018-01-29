@@ -70,6 +70,12 @@ Follow along with the [Rails Tutorial's](https://www.railstutorial.org/) creatio
 
 * Removed the simple 'hello world' page at the root route of the site and replaced it with a very slightly dynamic home page.
 
+* Remembered how awesome Ruby is. A few things I like about it:
+  - Array methods like .sort, .reverse, and .shuffle return a copy of the array - unless you follow them with a bang (e.g. "array.sort!")- in which case they mutate the array in place. This behavior can also be combined with methods that accept blocks, such as the map command: `(1..3).to_a.map! {|i| i * 2}`
+  - Methods with a boolean return value are written with a question mark (e.g. "string.empty?")
+  - Add new elements to an array with the shovel operator `<<`. (e.g. `["foo"] << "bar" << "baz"` results in `["foo","bar","baz"]` )
+  - RANGES - `(0..9).to_a` results in a ten element array of numbers from 0 to 9. `('a'..'z').to_a` yields an array of the letters of the alphabet from a to z.
+
 ## Known Bugs
 
 No known bugs as yet.
